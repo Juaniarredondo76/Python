@@ -1,25 +1,29 @@
-                    #logica con python 
-#edad=int(input("digita tu edad: "))
-#print(edad)
+                    #logica con python
+''' 
+edad=int(input("digita tu edad: "))
+print(edad)
+'''
                  # condicion logica siempre 
-#bandera=True
-#if(edad>=18 and bandera==True):
- #   print("bienvenido a la chismosa")
+'''
+bandera=True
+if(edad>=18 and bandera==True):
+  print("bienvenido a la chismosa")
+ '''
 
                     #EJERCICIO NUMERO 1
 
 '''
 #else:
-  #  print ("devuelvase...")
-#nivelAgua=int(input("digite el nievel de agua "))
-#if(nivelAgua<200):
- #   print("la represa tien poca agua ")
-#elif(nivelAgua>=200 and nivelAgua<450):
- #   print("la represa esta fool ")
-#elif(nivelAgua>=450):
- #   print("cuidado, abra compuertas ")
-#else:
- #print("digito un nivel invalido de agua ")
+   print ("devuelvase...")
+nivelAgua=int(input("digite el nievel de agua "))
+if(nivelAgua<200):
+   print("la represa tien poca agua ")
+elif(nivelAgua>=200 and nivelAgua<450):
+   print("la represa esta fool ")
+elif(nivelAgua>=450):
+    print("cuidado, abra compuertas ")
+else:
+ print("digito un nivel invalido de agua ")
  '''
 
                                 #JUAGANDO CON EL EJERCICIO NUMERO 1
@@ -30,7 +34,7 @@ if(nivelAgua>0 and <200):
 elif(nivelAgua>=200 and nivelAgua<450):
    print("la represa esta fool ")
 elif(nivelAgua>=450):
-  # print("cuidado, abra compuertas ")
+   print("cuidado, abra compuertas ")
 else:
     print("digito un nivel invalido de agua ") 
 '''
@@ -70,7 +74,8 @@ else:
 '''
 
                                 #EJEMPLO NUMERO 4 OPERADOR TERNARIO
-
+'''
 parametro=True
 print("El para mtro es verdadero")if parametro==True else print("El parametro es falso")
 
+'''
